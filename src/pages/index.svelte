@@ -1,5 +1,6 @@
 <script>
   import Button from "../components/Button.svelte";
+  import Navbar from "../components/Navbar.svelte";
   export let name;
 </script>
 
@@ -28,13 +29,16 @@
 <!-- <div>
   <h1>ini index</h1>
 </div> -->
-<main>
-  <h1>Hello {name}!</h1>
-  <p>
-    Visit the
-    <a href="https://svelte.dev/tutorial">Svelte tutorial</a>
-    to learn how to build Svelte apps.
-  </p>
-  <Button />
-  <a href="/about">about</a>
-</main>
+<div>
+  <Navbar />
+  <main>
+    <h1>Hello {name}!</h1>
+    <p>
+      Visit the
+      <a href="https://svelte.dev/tutorial">Svelte tutorial</a>
+      to learn how to build Svelte apps.
+    </p>
+    <Button />
+    <a href="/about">about</a>
+  </main>
+</div>
