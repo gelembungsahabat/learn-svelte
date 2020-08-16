@@ -102,3 +102,8 @@ Then, from within your project folder:
 npm run build
 surge public my-project.surge.sh
 ```
+
+
+# Kalo pengen routing, pake Routify
+
+docs : https://linguinecode.com/post/how-to-add-routes-to-svelte-spa-with-routify
